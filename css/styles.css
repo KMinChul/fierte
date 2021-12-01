@@ -173,3 +173,85 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.shopnav-container {
+  padding-top: 90px;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.5);
+  width: 100%;
+  height: 240px;
+  font-family: 'Spinnaker';
+  font-size: 25px;
+  font-weight: bold;
+  position: fixed;
+  z-index: 1;
+
+}
+.shopnav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+.shopnav-container .shopnav ul {
+  font-size: 18px;
+  font-weight: lighter;
+  font-family: 'Teko';
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shopnav-container .shopnav ul li {
+  float: left;
+  padding: 18px;
+  padding-top: 25px;
+}
+.shopnav-container .shopnav ul li:nth-child(1) {
+  padding-left: 110px;
+}
+.shopnav ul li a, .shopnav-container a {
+  text-decoration: none;
+  color: black;
+  transition-property: color;
+  transition-duration:0.3s;
+}
+.shopnav ul li a:hover, .shopnav-container a:hover {
+  color: rgb(199, 199, 199);
+}
+.shopbottom-container {
+  width: 100%;
+  height: 200px;
+}
+.bottom-banner {
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Spinnaker';
+  font-weight: bold;
+}
+.bottom-banner a {
+  text-decoration: none;
+  color: black;
+}
+.bottom-location {
+  padding-top: 20px;
+  width: 35%;
+  height: 100%;
+  float: left;
+  font-family: 'Teko';
+  font-size: 15px;
+}
+.bottom-sns {
+  padding-top: 20px;
+  width: 35%;
+  height: 60%;
+  float: left;
+  font-family: 'Teko';
+  font-size: 15px;
+  padding-left: 30px;
+
+}
+.bottom-sns a {
+  text-decoration: none;
+  color: black;
+}
