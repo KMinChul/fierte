@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/bg4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.index-container {
+  text-align: center;
+  margin-top: 80px;
+}
+.index-container a {
+  text-decoration: none;
+  color: rgb(69, 70, 69);
+}
+.studio-fierte {
+  color: rgb(43, 43, 43);
+  font-family: 'Spinnaker';
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 50px
+}
+.archive {
+  color: rgb(69, 70, 69);
+  float: left;
+  width: 50%;
+  font-family: 'Teko';
+  border-right: 0.1px solid rgb(69, 70, 69);
+  font-size: 48px;
+  margin-top: 100px;
+}
+.shop {
+  color: rgb(69, 70, 69);
+  float: left;
+  width: 50%;
+  font-family: 'Teko';
+  font-size: 48px;
+  margin-top: 100px;
+
+}
+.nav-archive {
+  width: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.nav-archive ul {
+  display: inline;
+  text-align: center;
+  list-style: none;
+}
+.nav-archive ul li {
+  display: inline-block;
+  padding: 18px;
+  font-size: 18px;
+  font-family: 'Teko';
+}
+.nav-archive ul li:nth-child(1) {
+  padding-left: 50px;
+}
+.nav-archive ul li a {
+  text-decoration: none;
+  color: black;
+  transition-property: color;
+  transition-duration:0.3s;
+}
+.nav-archive ul li a:hover {
+  color: rgb(199, 199, 199);
+}
+.container-about {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 570px;
+  font-size: 12px;
+  font-weight: lighter;
+  color: rgb(69, 70, 69);
+}
+.container-about img {
+  width: 100%;
+  filter: grayscale(100%);
+}
+.container-about span {
+  line-height: 25px;
+}
+.container-artist {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 570px;
+  font-size: 13px;
+  text-align: center;
+  color: rgb(69, 70, 69);
+}
+.container-artist .namecard a img {
+  -webkit-filter: grayscale(100%);
+-webkit-transition: 0.3s ease-in-out;
+-moz-filter: grayscale(100%);
+-moz-transition: 0.3s ease-in-out;
+-o-filter: grayscale(100%);
+-o-transition: 0.3s ease-in-out;
+
+}
+.container-artist .namecard a img:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: 0.3s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: 0.3s ease-in-out;
+}
+.container-artist .namecard div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.container-contact {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 570px;
+  height: 320px;
+  border: 1px solid rgb(199, 199, 199);
+  color: rgb(43, 43, 43);
+  font-family: 'Spinnaker';
+  font-size: 13px;
+}
+.archive a {
+  text-decoration: none;
+  color: rgb(69, 70, 69);
+  transition-property: color;
+  transition-duration:0.3s;
+}
+.archive a:hover {
+  color: rgb(199, 199, 199);
+}
+.shop a {
+  text-decoration: none;
+  color: rgb(69, 70, 69);
+  transition-property: color;
+  transition-duration:0.3s;
+}
+.shop a:hover {
+  color: rgb(199, 199, 199);
+}
+.container-archive {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 570px;
+  font-size: 13px;
+  text-align: center;
+  color: rgb(69, 70, 69);
+}
+.container-archive .archivecard a img {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: 0.3s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: 0.3s ease-in-out;
+}
+.container-archive .archivecard a img:hover {
+  -webkit-filter: grayscale(100%);
+-webkit-transition: 0.3s ease-in-out;
+-moz-filter: grayscale(100%);
+-moz-transition: 0.3s ease-in-out;
+-o-filter: grayscale(100%);
+-o-transition: 0.3s ease-in-out;
+}
+.container-archive .archivecard div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
