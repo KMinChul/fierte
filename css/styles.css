@@ -174,7 +174,7 @@ body {
   margin-bottom: 10px;
 }
 .shopnav-container {
-  padding-top: 90px;
+  padding-top: 30px;
   text-align: center;
   background-color: rgb(255, 255, 255, 0.5);
   width: 100%;
@@ -190,6 +190,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 800px;
+  letter-spacing: 2px;
 }
 .shopnav-container .shopnav ul {
   font-size: 18px;
@@ -205,7 +206,7 @@ body {
   padding-top: 25px;
 }
 .shopnav-container .shopnav ul li:nth-child(1) {
-  padding-left: 110px;
+  padding-left: 10px;
 }
 .shopnav ul li a, .shopnav-container a {
   text-decoration: none;
@@ -254,4 +255,83 @@ body {
 .bottom-sns a {
   text-decoration: none;
   color: black;
+}
+.product-container {
+  width: 100%;
+  font-family: 'Teko';
+  float: left;
+  z-index: 1;
+
+}
+.product-container .product-list {
+  list-style: none;
+}
+.product-container .product-list li {
+  width: 280px;
+  height: 415px;
+  float: left;
+  margin-left: 90px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.product-container .product-list li img {
+  width: 280px;
+  height: 415px;
+}
+.product-container .product-list li p {
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+.product-container .product-list li a {
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+}
+.menu {
+  width: 100%;
+  height: 0px;
+  font-family: 'teko';
+  font-size: 18px;
+  position: fixed;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.menu a {
+  text-decoration: none;
+
+}
+.menu ul {
+  list-style: none;
+}
+.left-menu {
+}
+.right-menu {
+  padding-right: 15px;
+}
+.brands-container {
+  font-family: 'Teko';
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 240px;
+  font-size: 18px;
+  word-spacing: 5px;
+}
+.brands-container a {
+  text-decoration: none;
+  font-family: 'Teko';
+  color: black;
+}
+.brands-container a:hover {
+  text-decoration: underline;
+}
+.back {
+  padding-left: 50px;
+  padding-top: 60px;
+  text-decoration: none;
+  color: #AF0000;
+  font-size: 12px;
+  font-weight: bold;
 }
